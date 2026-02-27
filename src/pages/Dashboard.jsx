@@ -15,7 +15,7 @@ export default function Dashboard() {
 
   const fetchResumes = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/resume/all', {
+      const res = await axios.get('https://resume-analyzer-backend-pm3i.onrender.com/api/resume/all', {
         headers: { Authorization: `Bearer ${token}` }
       })
       setResumes(res.data)
@@ -30,7 +30,7 @@ export default function Dashboard() {
     try {
       const formData = new FormData()
       formData.append('resume', file)
-      const res = await axios.post('http://localhost:5000/api/resume/analyze', formData, {
+      const res = await axios.post('https://resume-analyzer-backend-pm3i.onrender.com/api/resume/analyze', formData, {
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'multipart/form-data' }
       })
       setAnalysis(res.data.analysis)

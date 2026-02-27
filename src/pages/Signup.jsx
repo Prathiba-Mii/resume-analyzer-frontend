@@ -14,7 +14,7 @@ export default function Signup() {
     e.preventDefault()
     setLoading(true)
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signup', { name, email, password })
+      const res = await axios.post('https://resume-analyzer-backend-pm3i.onrender.com/api/auth/signup', { name, email, password })
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('user', JSON.stringify(res.data.user))
       navigate('/dashboard')
