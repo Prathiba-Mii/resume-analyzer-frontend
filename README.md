@@ -1,16 +1,52 @@
-# React + Vite
+# Resume Analyzer - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered resume analyzer frontend built with React and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Live App
+https://resume-analyzer-frontend-gamma.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- Axios
+- React Router DOM
 
-## React Compiler
+## ✨ Features
+- User Authentication (Login/Signup)
+- Resume Upload (PDF & TXT)
+- AI Analysis Results Display
+- Past Analyses History
+- Responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔧 Setup
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev`
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**LinkedIn Post —**
+```
+🚀 Excited to share my latest project — AI Resume Analyzer!
+
+Built a full-stack MERN application that analyzes resumes using AI and provides:
+✅ ATS Score out of 100
+✅ Key Strengths Analysis
+✅ Areas to Improve
+✅ Career Roadmap
+
+🛠️ Tech Stack:
+- Frontend: React.js, Vite
+- Backend: Node.js, Express.js
+- Database: MongoDB Atlas
+- AI: Groq API (Llama 3.3)
+- Auth: JWT
+- Deploy: Vercel + Render
+
+🔗 Live Demo: https://resume-analyzer-frontend-gamma.vercel.app
+💻 GitHub: https://github.com/Prathiba-Mii
+
+This project taught me end-to-end fullstack development — from building REST APIs to deploying on cloud platforms!
+
+#MERN #ReactJS #NodeJS #MongoDB #AI #WebDevelopment #FullStack #OpenToWork
